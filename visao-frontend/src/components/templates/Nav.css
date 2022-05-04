@@ -1,0 +1,50 @@
+aside.menu-area{
+    background-color: #bbb;
+    box-shadow: 2px 0px 10px 0.02px;
+    z-index: 1;
+}
+aside.logo{
+    height: 80px;
+    text-align: center;   
+}
+.menu a{
+    display: flex;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    align-items: center;
+    padding: 10px;
+    text-indent: 10px;
+    color: #000;
+}
+
+.menu a:hover{
+    background-color: #333;
+    color: #fff;
+    border-radius: 30px;
+}
+.menu a::before{
+    background-color: #333;
+    color: #fff;
+    border-radius: 30px;
+}
+
+@media(max-width:768px){
+    .menu {
+        display: flex;
+        justify-content:flex-start ;
+        align-items: center;
+    }
+    .menu a{
+        display: inline;
+        padding: 10px;
+        margin: 0px;
+    } 
+    .menu {
+        height: 100%;
+        justify-content: space-around
+    }
+    aside.logo{
+        display:none;
+    }
+}

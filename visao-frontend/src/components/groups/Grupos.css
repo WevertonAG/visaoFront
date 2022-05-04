@@ -1,0 +1,23 @@
+.form{
+    display: flex;
+}
+
+form .shearch{
+    margin-left:5px;
+}
+thead{
+    position: sticky;
+}
+.btn{
+ display: flex;
+ justify-content:center;
+ align-items:center;
+}
+
+
+
+@media (min-width: 768px){
+    Main > .container{
+        overflow:scroll;
+    }
+}

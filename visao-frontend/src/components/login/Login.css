@@ -1,0 +1,41 @@
+body{
+    background-color: #bbb;
+}
+.login{
+    margin: 0px;
+    height:80vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+.container{
+    margin-top: 25%;
+    background-color: #fff;
+    height: 70vh;
+    width: 60vh;
+    display:flex;
+    flex-direction:column;
+    box-shadow: 5px 5px 20px 0.02px;
+    border-radius: 5px;
+
+}
+.container .log{
+    text-align: center;
+}
+
+.btn{
+    margin-left: 35%;
+    width: 30%;
+}
+
+p{
+    text-align: center;
+    margin-left: 10px;
+}
+.imagen{
+ width:100%;
+ margin-top: 5px;
+ display:flex;
+ justify-content: center;
+}

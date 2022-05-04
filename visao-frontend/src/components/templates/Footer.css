@@ -1,0 +1,29 @@
+footer {
+    padding-top:5px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 5px 0px 5px 0px;
+    font-weight: 600;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.aFooter{
+    margin-top: 7px;
+    text-decoration: none;  
+    color: #000; 
+}
+
+@media(max-width:768px){
+    .footer p{
+        display: none;
+    }
+}
+@media(max-width:576px){
+    .footer p{
+        display: none;
+    }
+}
